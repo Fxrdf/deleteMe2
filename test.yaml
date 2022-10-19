@@ -1,0 +1,6 @@
+states:
+- id: helloworld
+  type: noop
+  transform:
+    result: Hello jq(.name)
+
